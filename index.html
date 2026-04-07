@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Restoran Modern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Dapur Digital</h1>
+        <p>Lezat, Segar, dan Terjangkau</p>
+    </header>
+
+    <div class="filter-buttons">
+        <button onclick="filterMenu('semua')">Semua</button>
+        <button onclick="filterMenu('makanan')">Makanan</button>
+        <button onclick="filterMenu('minuman')">Minuman</button>
+    </div>
+
+    <main class="menu-container">
+        <div class="menu-item makanan">
+            <img src="https://via.placeholder.com/200" alt="Nasi Goreng">
+            <div class="info">
+                <h3>Nasi Goreng Spesial</h3>
+                <p>Nasi goreng dengan telur mata sapi dan ayam suwir.</p>
+                <span class="harga">Rp 25.000</span>
+            </div>
+        </div>
+
+        <div class="menu-item minuman">
+            <img src="https://via.placeholder.com/200" alt="Es Teh">
+            <div class="info">
+                <h3>Es Teh Manis</h3>
+                <p>Teh melati segar dengan es batu kristal.</p>
+                <span class="harga">Rp 5.000</span>
+            </div>
+        </div>
+        
+        </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
